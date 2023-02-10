@@ -4,11 +4,11 @@ User Stories:
 <!-- Your portfolio should have a welcome section with an id of welcome-section -->
 <!-- The welcome section should have an h1 element that contains text -->
 <!--Your portfolio should have a projects section with an id of projects-->
-The projects section should contain at least one element with a class of project-tile to hold a project
-The projects section should contain at least one link to a project
-Your portfolio should have a navbar with an id of navbar
-The navbar should contain at least one link that you can click on to navigate to different sections of the page
-Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+<!-- The projects section should contain at least one element with a class of project-tile to hold a project -->
+<!-- The projects section should contain at least one link to a project -->
+<!-- Your portfolio should have a navbar with an id of navbar -->
+<!-- The navbar should contain at least one link that you can click on to navigate to different sections of the page -->
+<!-- Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab -->
 Your portfolio should have at least one media query
 The height of the welcome section should be equal to the height of the viewport
 The navbar should always be at the top of the viewport
@@ -37,21 +37,36 @@ Waiting:Your #navbar element should always be at the top of the viewport.
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>My Portfolio</title>
 </head>
 <body>
+    <nav id="navbar" class="nav">
+<ul class="nav-list">
+    <li>
+        <a href="#welcome-section">Welcome</a>
+    </li>
+    <li>
+        <a href="#projects">Projects</a>
+    </li>
+    <li>
+        <a href="#contact">Contact Us</a>
+    </li>
+</ul>
+    </nav>
     <section id="welcome-section">
         <h1>This is my Portfolio Page</h1>
 
     </section>
     <section id="projects">
         <h1 id="project-tile">
-            <a href= #projects>project holded</a>
         </h1>
-        
+        <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage">My Project</a>
     </section>
-    <nav id="navbar">
+    <section id="contact">
+        <h1>You can contact us here</h1>
 
-    </nav>
+    </section>
+    <a id="profile-link" href="https://github.com/Mike111222" target="_blank">My Github Account</a>
 </body>
 </html>
