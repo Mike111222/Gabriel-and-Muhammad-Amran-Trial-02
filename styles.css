@@ -1,0 +1,13 @@
+@media(max-width: 600px) {
+    html{
+        font-size: 65%;
+    }
+}
+
+#welcome-section {
+    height: 100vh;
+}
+
+#navbar{
+    position: fixed;
+}
